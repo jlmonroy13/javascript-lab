@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+}
+#number {
+	display: block;
+	height: 100px;
+	width: 200px;
+	margin: 30px auto;
+	border: 2px solid black;
+}
+
+#boton {
+	padding: 10px 30px;
+	background-color: blue;
+	color: white;
+}

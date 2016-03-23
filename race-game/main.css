@@ -1,0 +1,83 @@
+.racetrack {
+	position: relative;
+	width: 1009.63px;
+	height: 500px;
+	margin: 50px auto;
+	background: url('images/background.jpg') no-repeat;
+	background-size: 100%;
+}
+
+body {
+	background-color: #C5E0FF;
+	text-align: center; 
+	font-size: 14px;
+	padding: 0 10%;
+	overflow: auto;
+}
+
+a {
+	color: #D0021B;
+	background-color: #E7DC53;
+	border: 3px solid white;
+	border-radius: 16px;
+	text-decoration: none;
+	padding: 0 1.7857em;
+	font-size: 2.1428rem;
+	display: inline-block;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+}
+.count {
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+	top: 500px;
+}
+
+.count p {
+	color: gray;
+	font-family: "Comic Sans MS";
+	font-size: 1rem;
+	margin-right: 50px;
+}
+
+p {
+	display: inline-block;
+}
+
+p.winner {
+	color: #D0021B;
+	font-family: "Comic Sans MS";
+	font-size: 1rem;
+	position: absolute;
+	right: 50px;
+	top: 500px;
+}
+
+.car-r {
+	height: 52px;
+	width: 105px;
+	display: inline-block;
+	background: url('images/car-r.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 10px;
+/*	top: 160px;*/
+}
+
+.car-b {
+	height: 52px;
+	width: 105px;
+	display: inline-block;
+	background: url('images/car-b.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 10px;
+/*	top: 280px;*/
+}
+
+
+
+
+
+
